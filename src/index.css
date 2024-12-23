@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+/* Safe area padding for iOS devices */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
