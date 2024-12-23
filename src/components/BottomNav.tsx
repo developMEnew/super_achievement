@@ -1,12 +1,12 @@
-import { Home, Search, Heart, Settings, User } from 'lucide-react';
+import { ListFilter, PlusCircle, Calendar, User, BarChart3 } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { clsx } from 'clsx';
 
 const tabs = [
-  { icon: Home, label: 'Home', path: '/' },
-  { icon: Search, label: 'Search', path: '/search' },
-  { icon: Heart, label: 'Favorites', path: '/favorites' },
-  { icon: Settings, label: 'Settings', path: '/settings' },
+  { icon: BarChart3, label: 'Stats', path: '/' },
+  { icon: ListFilter, label: 'List', path: '/list' },
+  { icon: PlusCircle, label: 'Add', path: '/add' },
+  { icon: Calendar, label: 'Calendar', path: '/calendar' },
   { icon: User, label: 'Profile', path: '/profile' },
 ];
 
